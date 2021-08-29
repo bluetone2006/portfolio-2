@@ -1,0 +1,40 @@
+h1 {
+    color: white;
+    font-family: 'Walibi0615';
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: rgb(64, 91, 243);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Walibi0615';
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    font-family: 'Walibi0615';
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Walibi0615';
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Walibi0615';
+}
+
+p,h2{
+    text-align: center;
+    font-family: 'Walibi0615';
+}
